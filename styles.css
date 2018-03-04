@@ -31,4 +31,10 @@ li a:hover {
 #about{
  background: rgba(0, 0, 0, 0.3);
   color: white;
+  font-family: Leelawadee UI;
+}
+
+#profile{
+padding-right: 10;
+padding-left: 10;
 }
