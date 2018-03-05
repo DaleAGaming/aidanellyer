@@ -1,0 +1,43 @@
+<html>
+<head>
+  <script type="text/javascript">
+    var _bftn_options = {
+
+      theme: 'without', // @type {string}
+
+      theme: {
+        className: 'money', // @type {string} will be applied to iframe body tag
+        logos: ['images/money.png', 'images/stop.png'], // @type {Array} img src values
+        headline: 'Your headline here.', // @type {string} modal headline text
+        body: 'Your body here.' // @type {string} modal body text
+      },
+      org: 'fftf', // @type {string}
+      delay: 1000, // @type {number}
+      date: new Date(2017, 10, 23), // @type {Date}
+      viewCookieExpires: 1, // @type {number}
+      actionCookieExpires: 7, // @type {number}
+
+      uncloseable: false, // @type {boolean}
+
+
+      disableGoogleAnalytics: false, // @type {boolean}
+
+      always_show_widget: true // @type {boolean}
+    };
+  </script>
+
+   <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <!-- The video -->
+  <h1>Last Weeks Winner: Insert a meme </h1>
+<video autoplay loop id="myVideo">
+ <source src="videos/background.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+ <p><iframe src="http://www.strawpoll.me/embed_1/14730539" style="width:680px;height:342px;border:0;">Loading poll...</iframe></p>
+ <button onclick="goBack()">Go Back</button>
+
+</script>
+</body>
